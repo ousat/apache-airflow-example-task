@@ -1,0 +1,86 @@
+[2019-10-16 15:00:34,876] {taskinstance.py:620} INFO - Dependencies all met for <TaskInstance: file_operations_pipeline.print_first_ten_lines 2019-10-16T09:25:00+00:00 [queued]>
+[2019-10-16 15:00:34,885] {taskinstance.py:620} INFO - Dependencies all met for <TaskInstance: file_operations_pipeline.print_first_ten_lines 2019-10-16T09:25:00+00:00 [queued]>
+[2019-10-16 15:00:34,885] {taskinstance.py:838} INFO - 
+--------------------------------------------------------------------------------
+[2019-10-16 15:00:34,885] {taskinstance.py:839} INFO - Starting attempt 1 of 5
+[2019-10-16 15:00:34,885] {taskinstance.py:840} INFO - 
+--------------------------------------------------------------------------------
+[2019-10-16 15:00:34,892] {taskinstance.py:859} INFO - Executing <Task(BashOperator): print_first_ten_lines> on 2019-10-16T09:25:00+00:00
+[2019-10-16 15:00:34,892] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'file_operations_pipeline', 'print_first_ten_lines', '2019-10-16T09:25:00+00:00', '--job_id', '6', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/file_mover.py', '--cfg_path', '/tmp/tmplcs3sv7t']
+[2019-10-16 15:00:35,457] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines /home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/configuration.py:627: DeprecationWarning: You have two airflow.cfg files: /home/sat/airflow/airflow.cfg and /home/sat/Projects/p1/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/sat/Projects/p1/airflow.cfg, and you should remove the other file
+[2019-10-16 15:00:35,457] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines   category=DeprecationWarning,
+[2019-10-16 15:00:35,520] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines [2019-10-16 15:00:35,520] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=13994
+[2019-10-16 15:00:35,701] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines [2019-10-16 15:00:35,700] {__init__.py:51} INFO - Using executor CeleryExecutor
+[2019-10-16 15:00:36,096] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines [2019-10-16 15:00:36,095] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-16 15:00:36,121] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines [2019-10-16 15:00:36,120] {cli.py:516} INFO - Running <TaskInstance: file_operations_pipeline.print_first_ten_lines 2019-10-16T09:25:00+00:00 [running]> on host sat-Inspiron-5559
+[2019-10-16 15:00:36,132] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /tmp
+[2019-10-16 15:00:36,132] {bash_operator.py:91} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=file_operations_pipeline
+AIRFLOW_CTX_TASK_ID=print_first_ten_lines
+AIRFLOW_CTX_EXECUTION_DATE=2019-10-16T09:25:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-10-16T09:25:00+00:00
+[2019-10-16 15:00:36,133] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmpzg1duzs7/print_first_ten_linescro83kx9
+[2019-10-16 15:00:36,133] {bash_operator.py:115} INFO - Running command: head -n 10 target_dir/source_dir/AB_NYC_2019.csv
+[2019-10-16 15:00:36,137] {bash_operator.py:124} INFO - Output:
+[2019-10-16 15:00:36,139] {bash_operator.py:128} INFO - head: cannot open 'target_dir/source_dir/AB_NYC_2019.csv' for reading: No such file or directory
+[2019-10-16 15:00:36,139] {bash_operator.py:132} INFO - Command exited with return code 1
+[2019-10-16 15:00:36,146] {taskinstance.py:1051} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 926, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/operators/bash_operator.py", line 136, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2019-10-16 15:00:36,148] {taskinstance.py:1074} INFO - Marking task as UP_FOR_RETRY
+[2019-10-16 15:00:36,157] {logging_mixin.py:95} INFO - [[34m2019-10-16 15:00:36,157[0m] {[34mconfiguration.py:[0m299} WARNING[0m - section/key [[1msmtp[0m/[1msmtp_user[0m] not found in config[0m
+[2019-10-16 15:00:36,157] {taskinstance.py:1086} ERROR - Failed to send email to: ['satish.kumar@marketale.com']
+[2019-10-16 15:00:36,158] {taskinstance.py:1087} ERROR - [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 926, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/operators/bash_operator.py", line 136, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1076, in handle_failure
+    self.email_alert(error)
+  File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1307, in email_alert
+    send_email(self.task.email, subject, html_content)
+  File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/utils/email.py", line 55, in send_email
+    mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+  File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/utils/email.py", line 101, in send_email_smtp
+    send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+  File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/utils/email.py", line 121, in send_MIME_email
+    s = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) if SMTP_SSL else smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+  File "/usr/lib/python3.6/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python3.6/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python3.6/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/usr/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2019-10-16 15:00:36,168] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines Traceback (most recent call last):
+[2019-10-16 15:00:36,168] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines   File "/home/sat/Projects/p1/avenv/bin/airflow", line 32, in <module>
+[2019-10-16 15:00:36,168] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines     args.func(args)
+[2019-10-16 15:00:36,169] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines   File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2019-10-16 15:00:36,169] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines     return f(*args, **kwargs)
+[2019-10-16 15:00:36,169] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines   File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/bin/cli.py", line 522, in run
+[2019-10-16 15:00:36,169] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines     _run(args, dag, ti)
+[2019-10-16 15:00:36,169] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines   File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/bin/cli.py", line 440, in _run
+[2019-10-16 15:00:36,169] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines     pool=args.pool,
+[2019-10-16 15:00:36,169] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines   File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/utils/db.py", line 74, in wrapper
+[2019-10-16 15:00:36,169] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines     return func(*args, **kwargs)
+[2019-10-16 15:00:36,169] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines   File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 926, in _run_raw_task
+[2019-10-16 15:00:36,169] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines     result = task_copy.execute(context=context)
+[2019-10-16 15:00:36,169] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines   File "/home/sat/Projects/p1/avenv/lib/python3.6/site-packages/airflow/operators/bash_operator.py", line 136, in execute
+[2019-10-16 15:00:36,169] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines     raise AirflowException("Bash command failed")
+[2019-10-16 15:00:36,169] {base_task_runner.py:115} INFO - Job 6: Subtask print_first_ten_lines airflow.exceptions.AirflowException: Bash command failed
+[2019-10-16 15:00:39,872] {logging_mixin.py:95} INFO - [[34m2019-10-16 15:00:39,871[0m] {[34mlocal_task_job.py:[0m105} INFO[0m - Task exited with return code 1[0m

@@ -1,0 +1,215 @@
+[2019-10-15 15:56:17,063] {logging_mixin.py:95} INFO - [2019-10-15 15:56:17,063] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=24310
+[2019-10-15 15:56:17,067] {scheduler_job.py:146} INFO - Started process (PID=24310) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:56:17,070] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 15:56:17,071] {logging_mixin.py:95} INFO - [2019-10-15 15:56:17,071] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:56:17,087] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:56:17,289] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.222 seconds
+[2019-10-15 15:57:51,673] {logging_mixin.py:95} INFO - [2019-10-15 15:57:51,673] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=24421
+[2019-10-15 15:57:51,676] {scheduler_job.py:146} INFO - Started process (PID=24421) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:57:51,678] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 15:57:51,679] {logging_mixin.py:95} INFO - [2019-10-15 15:57:51,678] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:57:51,688] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:57:51,729] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.053 seconds
+[2019-10-15 15:58:02,789] {logging_mixin.py:95} INFO - [2019-10-15 15:58:02,788] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=24485
+[2019-10-15 15:58:02,791] {scheduler_job.py:146} INFO - Started process (PID=24485) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:58:02,793] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 15:58:02,794] {logging_mixin.py:95} INFO - [2019-10-15 15:58:02,794] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:58:02,803] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:58:02,841] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.050 seconds
+[2019-10-15 15:58:23,024] {logging_mixin.py:95} INFO - [2019-10-15 15:58:23,024] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=24563
+[2019-10-15 15:58:23,027] {scheduler_job.py:146} INFO - Started process (PID=24563) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:58:23,029] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 15:58:23,029] {logging_mixin.py:95} INFO - [2019-10-15 15:58:23,029] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:58:23,037] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:58:23,091] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.064 seconds
+[2019-10-15 15:58:43,236] {logging_mixin.py:95} INFO - [2019-10-15 15:58:43,236] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=24611
+[2019-10-15 15:58:43,242] {scheduler_job.py:146} INFO - Started process (PID=24611) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:58:43,247] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 15:58:43,247] {logging_mixin.py:95} INFO - [2019-10-15 15:58:43,247] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:58:43,266] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:58:43,300] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.058 seconds
+[2019-10-15 15:59:03,456] {logging_mixin.py:95} INFO - [2019-10-15 15:59:03,456] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=24660
+[2019-10-15 15:59:03,460] {scheduler_job.py:146} INFO - Started process (PID=24660) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:59:03,462] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 15:59:03,462] {logging_mixin.py:95} INFO - [2019-10-15 15:59:03,462] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:59:03,471] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:59:03,505] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.045 seconds
+[2019-10-15 15:59:23,651] {logging_mixin.py:95} INFO - [2019-10-15 15:59:23,651] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=24711
+[2019-10-15 15:59:23,654] {scheduler_job.py:146} INFO - Started process (PID=24711) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:59:23,656] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 15:59:23,656] {logging_mixin.py:95} INFO - [2019-10-15 15:59:23,656] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:59:23,665] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:59:23,697] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.043 seconds
+[2019-10-15 15:59:43,898] {logging_mixin.py:95} INFO - [2019-10-15 15:59:43,898] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=24805
+[2019-10-15 15:59:43,903] {scheduler_job.py:146} INFO - Started process (PID=24805) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:59:43,907] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 15:59:43,907] {logging_mixin.py:95} INFO - [2019-10-15 15:59:43,907] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:59:43,936] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 15:59:44,014] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.111 seconds
+[2019-10-15 16:00:04,232] {logging_mixin.py:95} INFO - [2019-10-15 16:00:04,231] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=24850
+[2019-10-15 16:00:04,240] {scheduler_job.py:146} INFO - Started process (PID=24850) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:00:04,246] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:00:04,246] {logging_mixin.py:95} INFO - [2019-10-15 16:00:04,246] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:00:04,267] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:00:04,325] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:00:04,348] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:00:04,358] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.118 seconds
+[2019-10-15 16:00:24,496] {logging_mixin.py:95} INFO - [2019-10-15 16:00:24,496] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=24903
+[2019-10-15 16:00:24,500] {scheduler_job.py:146} INFO - Started process (PID=24903) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:00:24,503] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:00:24,503] {logging_mixin.py:95} INFO - [2019-10-15 16:00:24,503] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:00:24,515] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:00:24,626] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:00:24,653] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:00:24,664] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.164 seconds
+[2019-10-15 16:02:30,032] {logging_mixin.py:95} INFO - [2019-10-15 16:02:30,032] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25118
+[2019-10-15 16:02:30,037] {scheduler_job.py:146} INFO - Started process (PID=25118) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:02:30,039] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:02:30,039] {logging_mixin.py:95} INFO - [2019-10-15 16:02:30,039] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:02:30,048] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:02:30,078] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:02:30,115] {scheduler_job.py:1265} INFO - Created <DagRun file_operations_pipeline @ 2019-10-15T10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:02:30,118] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:02:30,165] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:02:30,169] {scheduler_job.py:1596} INFO - Creating / updating <TaskInstance: file_operations_pipeline.sleep 2019-10-15 10:25:00+00:00 [scheduled]> in ORM
+[2019-10-15 16:02:30,175] {scheduler_job.py:1596} INFO - Creating / updating <TaskInstance: file_operations_pipeline.zip_target 2019-10-15 10:25:00+00:00 [scheduled]> in ORM
+[2019-10-15 16:02:30,190] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.153 seconds
+[2019-10-15 16:02:41,168] {logging_mixin.py:95} INFO - [2019-10-15 16:02:41,167] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25226
+[2019-10-15 16:02:41,180] {scheduler_job.py:146} INFO - Started process (PID=25226) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:02:41,188] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:02:41,190] {logging_mixin.py:95} INFO - [2019-10-15 16:02:41,189] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:02:41,230] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:02:41,281] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:02:41,311] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:02:41,361] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:02:41,365] {scheduler_job.py:1596} INFO - Creating / updating <TaskInstance: file_operations_pipeline.move_target_to_source 2019-10-15 10:25:00+00:00 [scheduled]> in ORM
+[2019-10-15 16:02:41,381] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.201 seconds
+[2019-10-15 16:02:51,278] {logging_mixin.py:95} INFO - [2019-10-15 16:02:51,277] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25305
+[2019-10-15 16:02:51,284] {scheduler_job.py:146} INFO - Started process (PID=25305) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:02:51,289] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:02:51,290] {logging_mixin.py:95} INFO - [2019-10-15 16:02:51,290] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:02:51,312] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:02:51,379] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:02:51,402] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:02:51,447] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:02:51,451] {scheduler_job.py:1596} INFO - Creating / updating <TaskInstance: file_operations_pipeline.unzip_source 2019-10-15 10:25:00+00:00 [scheduled]> in ORM
+[2019-10-15 16:02:51,462] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.178 seconds
+[2019-10-15 16:03:01,438] {logging_mixin.py:95} INFO - [2019-10-15 16:03:01,437] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25369
+[2019-10-15 16:03:01,445] {scheduler_job.py:146} INFO - Started process (PID=25369) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:01,451] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:03:01,452] {logging_mixin.py:95} INFO - [2019-10-15 16:03:01,452] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:01,470] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:01,526] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:03:01,553] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:03:01,612] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:03:01,621] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.176 seconds
+[2019-10-15 16:03:11,590] {logging_mixin.py:95} INFO - [2019-10-15 16:03:11,589] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25389
+[2019-10-15 16:03:11,596] {scheduler_job.py:146} INFO - Started process (PID=25389) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:11,603] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:03:11,604] {logging_mixin.py:95} INFO - [2019-10-15 16:03:11,604] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:11,633] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:11,704] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:03:11,721] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:03:11,779] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:03:11,789] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.193 seconds
+[2019-10-15 16:03:21,746] {logging_mixin.py:95} INFO - [2019-10-15 16:03:21,746] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25419
+[2019-10-15 16:03:21,757] {scheduler_job.py:146} INFO - Started process (PID=25419) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:21,767] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:03:21,769] {logging_mixin.py:95} INFO - [2019-10-15 16:03:21,768] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:21,790] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:21,824] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:03:21,841] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:03:21,882] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:03:21,889] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.132 seconds
+[2019-10-15 16:03:31,858] {logging_mixin.py:95} INFO - [2019-10-15 16:03:31,858] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25441
+[2019-10-15 16:03:31,865] {scheduler_job.py:146} INFO - Started process (PID=25441) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:31,870] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:03:31,871] {logging_mixin.py:95} INFO - [2019-10-15 16:03:31,871] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:31,885] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:31,919] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:03:31,934] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:03:31,976] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:03:31,983] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.118 seconds
+[2019-10-15 16:03:41,995] {logging_mixin.py:95} INFO - [2019-10-15 16:03:41,995] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25468
+[2019-10-15 16:03:42,004] {scheduler_job.py:146} INFO - Started process (PID=25468) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:42,014] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:03:42,015] {logging_mixin.py:95} INFO - [2019-10-15 16:03:42,015] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:42,041] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:42,076] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:03:42,090] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:03:42,129] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:03:42,135] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.131 seconds
+[2019-10-15 16:03:52,122] {logging_mixin.py:95} INFO - [2019-10-15 16:03:52,122] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25493
+[2019-10-15 16:03:52,126] {scheduler_job.py:146} INFO - Started process (PID=25493) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:52,129] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:03:52,130] {logging_mixin.py:95} INFO - [2019-10-15 16:03:52,130] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:52,144] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:03:52,171] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:03:52,185] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:03:52,223] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:03:52,229] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.102 seconds
+[2019-10-15 16:04:02,286] {logging_mixin.py:95} INFO - [2019-10-15 16:04:02,285] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25516
+[2019-10-15 16:04:02,293] {scheduler_job.py:146} INFO - Started process (PID=25516) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:02,299] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:04:02,300] {logging_mixin.py:95} INFO - [2019-10-15 16:04:02,300] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:02,316] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:02,346] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:04:02,359] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:04:02,400] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:04:02,406] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.113 seconds
+[2019-10-15 16:04:12,429] {logging_mixin.py:95} INFO - [2019-10-15 16:04:12,428] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25539
+[2019-10-15 16:04:12,435] {scheduler_job.py:146} INFO - Started process (PID=25539) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:12,441] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:04:12,441] {logging_mixin.py:95} INFO - [2019-10-15 16:04:12,441] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:12,463] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:12,526] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:04:12,541] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:04:12,580] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:04:12,585] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.150 seconds
+[2019-10-15 16:04:22,562] {logging_mixin.py:95} INFO - [2019-10-15 16:04:22,562] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25566
+[2019-10-15 16:04:22,566] {scheduler_job.py:146} INFO - Started process (PID=25566) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:22,569] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:04:22,570] {logging_mixin.py:95} INFO - [2019-10-15 16:04:22,570] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:22,580] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:22,612] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:04:22,627] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:04:22,681] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:04:22,688] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.122 seconds
+[2019-10-15 16:04:32,703] {logging_mixin.py:95} INFO - [2019-10-15 16:04:32,702] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25586
+[2019-10-15 16:04:32,709] {scheduler_job.py:146} INFO - Started process (PID=25586) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:32,714] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:04:32,715] {logging_mixin.py:95} INFO - [2019-10-15 16:04:32,715] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:32,749] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:32,788] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:04:32,804] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:04:32,854] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:04:32,860] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.152 seconds
+[2019-10-15 16:04:42,840] {logging_mixin.py:95} INFO - [2019-10-15 16:04:42,840] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25611
+[2019-10-15 16:04:42,847] {scheduler_job.py:146} INFO - Started process (PID=25611) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:42,851] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:04:42,852] {logging_mixin.py:95} INFO - [2019-10-15 16:04:42,851] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:42,864] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:42,904] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:04:42,919] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:04:42,968] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:04:42,975] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.127 seconds
+[2019-10-15 16:04:52,988] {logging_mixin.py:95} INFO - [2019-10-15 16:04:52,988] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25652
+[2019-10-15 16:04:52,993] {scheduler_job.py:146} INFO - Started process (PID=25652) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:52,998] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:04:52,999] {logging_mixin.py:95} INFO - [2019-10-15 16:04:52,999] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:53,010] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:04:53,053] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:04:53,071] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:04:53,123] {scheduler_job.py:429} INFO - Skipping SLA check for <DAG: file_operations_pipeline> because no tasks in DAG have SLAs
+[2019-10-15 16:04:53,131] {scheduler_job.py:152} INFO - Processing /home/sat/Projects/p1/dags/file_mover.py took 0.138 seconds
+[2019-10-15 16:05:03,133] {logging_mixin.py:95} INFO - [2019-10-15 16:05:03,133] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25677
+[2019-10-15 16:05:03,135] {scheduler_job.py:146} INFO - Started process (PID=25677) to work on /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:05:03,138] {scheduler_job.py:1520} INFO - Processing file /home/sat/Projects/p1/dags/file_mover.py for tasks to queue
+[2019-10-15 16:05:03,138] {logging_mixin.py:95} INFO - [2019-10-15 16:05:03,138] {dagbag.py:90} INFO - Filling up the DagBag from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:05:03,147] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['file_operations_pipeline']) retrieved from /home/sat/Projects/p1/dags/file_mover.py
+[2019-10-15 16:05:03,176] {scheduler_job.py:1255} INFO - Processing file_operations_pipeline
+[2019-10-15 16:05:03,210] {scheduler_job.py:1265} INFO - Created <DagRun file_operations_pipeline @ 2019-10-15T10:30:00+00:00: scheduled__2019-10-15T10:30:00+00:00, externally triggered: False>
+[2019-10-15 16:05:03,213] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:25:00+00:00: scheduled__2019-10-15T10:25:00+00:00, externally triggered: False>
+[2019-10-15 16:05:03,234] {scheduler_job.py:729} INFO - Examining DAG run <DagRun file_operations_pipeline @ 2019-10-15 10:30:00+00:00: scheduled__2019-10-15T10:30:00+00:00, externally triggered: False>
+[2019-10-15 16:05:03,264] {scheduler_job.py:393} INFO - Exiting gracefully upon receiving signal 15
+[2019-10-15 16:05:03,265] {scheduler_job.py:393} INFO - Exiting gracefully upon receiving signal 15

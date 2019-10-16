@@ -1,0 +1,2 @@
+[2019-10-15 15:56:37,348] {taskinstance.py:614} INFO - Dependencies not met for <TaskInstance: AFDAG.echo_hello 2019-10-15T07:41:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state which is not a valid state for execution. The task must be cleared in order to be run.
+[2019-10-15 15:56:37,349] {logging_mixin.py:95} INFO - [[34m2019-10-15 15:56:37,349[0m] {[34mlocal_task_job.py:[0m92} INFO[0m - Task is not able to be run[0m
