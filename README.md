@@ -60,8 +60,12 @@ AIRFLOW EXAMPLE
 
 # Editing and updating dag
 
-- Dag is saved under dags folder
+- go to dags directory
+    
+          cd dags
 
+
+- edit file file_mover.py
 
 
 
